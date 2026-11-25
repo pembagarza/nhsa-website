@@ -1,0 +1,6 @@
+﻿---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home4/nhskilla/public_html/
+    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp -f .htaccess $DEPLOYPATH
